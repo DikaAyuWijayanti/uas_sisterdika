@@ -46,7 +46,7 @@
         </p>
         <p>
             <input type="submit" value="Daftar" name="daftar" />
-            <a class="link" href="halaman_user.php">Kembali</a>
+            <a class="link" href="index.php">Kembali</a>
         </p>
 
         </fieldset>

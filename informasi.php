@@ -2,19 +2,10 @@
 <html>
 <head>
     <title>Pendaftaran Siswa Baru | SMAN 1 KAWEDANAN</title>
-    <Link rel="stylesheet" type="text/css" href="styleLinkDika.css">
+    <Link rel="stylesheet" type="text/css" href="styleLinkAyu.css">
 </head>
 
 <body>
-	<?php 
-	session_start();
-
-	// cek apakah yang mengakses halaman ini sudah login
-	if($_SESSION['level']==""){
-		header("location:index.php?pesan=gagal");
-	}
-
-	?>
     <div class="wrap">
         <div class="header" align="left">
             <left><img src="logo2.jpg"height="150" width="150"></img></left>
@@ -27,7 +18,7 @@
                 <li><a href="informasi.php">Informasi</a></li>
                 <li><a href="form-daftar.php">Pendaftaran</a></li>
                 <li><a href="lihat_daftar.php">Lihat Daftar</a></li>
-                <li><a href="logout.php">Logout</a></li>         
+                <li><a href="#">Logout</a></li>         
             </ul>
         </div>
             <div class="badan">         
@@ -35,7 +26,7 @@
                 sidebar
                 <ul>
                     <li><a href="form-daftar.php">Pendaftaran</a></li>
-            <li><a href="informasi.php">Informasi</a></li>    
+            <li><a href="list-siswa.php">Edit Data</a></li>    
                 </ul>
             </div>
             <div class="content">

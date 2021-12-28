@@ -1,7 +1,7 @@
 version: '3.8'
 services:
     app:
-        image: dika6/uas_sister
+        image: dika6/uas_sisterdika
         container_name: php-apache
         build:
             context: ./uas
@@ -9,7 +9,7 @@ services:
         depends_on:
             - db
         volumes:
-            - ./uas/uas_sister:/var/www/html/
+            - ./uas/uas_sisterdika:/var/www/html/
         ports:
             - 8000:80
 

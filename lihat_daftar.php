@@ -57,6 +57,6 @@
     </table>
 
     <p>Total: <?php echo mysqli_num_rows($query) ?></p>
-<a class="link" href="halaman_user.php">Kembali</a>
+<a class="link" href="index.php">Kembali</a>
     </body>
 </html>

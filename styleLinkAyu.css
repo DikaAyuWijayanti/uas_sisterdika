@@ -4,17 +4,17 @@
 	margin: 10px auto;
 }
 .wrap .header{
-	background: green;
+	background: blueviolet;
 	/*height: 50px;*/
 	padding: 1px 10px;
 }
 .wrap .menu{
-	background: yellow;
+	background: paleturquoise;
 }
 .wrap .menu ul{
 	padding: 0;
 	margin: 0;
-	background: yellow;
+	background: skyblue;
 	overflow: hidden;
 }
 .wrap .menu ul li{
@@ -27,12 +27,12 @@
 }
 /*bagian sidebar*/
 .wrap .badan .sidebar{
-	background: orange;
+	background: salmon;
 	float: left;	
 	width: 25%;
 	height: 100%;
 }.wrap .badan .content{
-	background: red;
+	background: slategray;
 	float: left;
 	height: 100%;
 	width: 75%;	
